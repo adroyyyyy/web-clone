@@ -4,65 +4,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Clone (themewagon)</title>
+    <title>FreshCart - web clone</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
     <header>
-        <section class="section-ads">
-            <nav>
-                <div>
-                    <h5>Super Value Deals - Save more with coupons</h5>
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-content">
+                    <span class="deal-text">Super Value Deals - Save more with coupons</span>
+                    <div class="top-bar-right">
+                        <div class="dropdown">
+                            <a href="#">English</a>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
 
-                <div>
-                    <a href="">English</a>
+        <div class="main-nav">
+            <div class="container">
+                <div class="main-nav-content">
+                    <a href="#" class="logo"><i class="ri-shopping-cart-fill"></i> FreshCart</a>
+
+                    <div class="search-bar">
+                        <input type="search" placeholder="Search for products">
+                        <button class="btn-location"><i class="ri-map-pin-fill"></i> Location</button>
+                    </div>
+
+                    <div class="nav-actions">
+                        <a href="#" class="nav-icon" title="Favorites">
+                            <span class="icon"><i class="ri-heart-fill"></i></span>
+                        </a>
+                        <a href="#" class="nav-icon" title="User">
+                            <span class="icon"><i class="ri-user-fill"></i></span>
+                        </a>
+                        <a href="#" class="nav-icon" title="Cart">
+                            <span class="icon"><i class="ri-shopping-bag-4-fill"></i></span>
+                        </a>
+                    </div>
                 </div>
-            </nav>
-        </section>
+            </div>
+        </div>
 
-        <section>
-            <nav>
-                <div>
-                    <h3><a href=""></a>FreshCart</h3>
+        <div class="menu-bar">
+            <div class="container">
+                <div class="menu-bar-content">
+                    <div class="departments-btn">
+                        <button><i class="ri-menu-fill"></i> All Departments</button>
+                    </div>
+                    <nav class="desktop-nav">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Dropdown Menu</a></li>
+                            <li><a href="#">Mega Menu</a></li>
+                            <li><a href="#">Dashboard</a></li>
+                        </ul>
+                    </nav>
                 </div>
-
-                <div class="nav-mid">
-                    <ul>
-                        <li><input type="search" placeholder="Search for products"></li>
-                        <li><button><a href="">Location</a></button></li>
-                    </ul>
-
-                </div>
-                <div class="nav-icons">
-                    <ul>
-                        <li><a href="">Favorites</a></li>
-                        <li><a href="">User</a></li>
-                        <li><a href="">Cart</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav-links"> 
-                    <ul>
-                        <li><a href="">All Departments</a></li>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Dropdown Menu</a></li>
-                        <li><a href="">Mega menu</a></li>
-                        <li><a href="">Dashboard</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </section>
-
+            </div>
+        </div>
     </header>
 
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-slider">
+                    <div class="hero-content">
+                        <span class="badge">Opening Sale Discount 50%</span>
+                        <h1>SuperMarket For Fresh Grocery</h1>
+                        <p>Introduced a new model for online grocery shopping and convenient home delivery.</p>
+                        <a href="#" class="btn-primary">Shop Now <span class="arrow">→</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="categories-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Featured Categories</h2>
+                    <div class="slider-arrows">
+                    </div>
+                </div>
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <div class="category-img">
+                            <img src="https://themewagon.github.io/freshcart/assets/images/category/category-tea-coffee-drinks.jpg"
+                                alt="Tea, Coffee & Drinks">
+                        </div>
+                        <div class="category-body">
+                            <h3>Tea, Coffee & Drinks</h3>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-img">
+                            <img src="https://themewagon.github.io/freshcart/assets/images/category/category-atta-rice-dal.jpg"
+                                alt="Atta, Rice & Dal">
+                        </div>
+                        <div class="category-body">
+                            <h3>Atta, Rice & Dal</h3>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-img">
+                            <img src="https://themewagon.github.io/freshcart/assets/images/category/category-baby-care.jpg"
+                                alt="Baby Care">
+                        </div>
+                        <div class="category-body">
+                            <h3>Baby Care</h3>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-img">
+                            <img src="https://themewagon.github.io/freshcart/assets/images/category/category-chicken-meat-fish.jpg"
+                                alt="Chicken, Meat & Fish">
+                        </div>
+                        <div class="category-body">
+                            <h3>Chicken, Meat & Fish</h3>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-img">
+                            <img src="https://themewagon.github.io/freshcart/assets/images/category/category-instant-food.jpg"
+                                alt="Instant Food">
+                        </div>
+                        <div class="category-body">
+                            <h3>Instant Food</h3>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-img">
+                            <img src="https://themewagon.github.io/freshcart/assets/images/category/category-pet-care.jpg"
+                                alt="Pet Care">
+                        </div>
+                        <div class="category-body">
+                            <h3>Pet Care</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer>
 
-
     </footer>
-
-
 </body>
 
 </html>
